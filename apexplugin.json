@@ -1,6 +1,6 @@
 {
   "name" : "IG Download File Pro",
-  "version" : "20.1",
+  "version" : "22.1",
   "description" : "Provide a highly customizable download link in your Interactive Grid. Users can not only download a file, but can also preview certain file types or setup custom menu items for the file.",
   "keywords" : ["download","file"],
   "homepage" : "https://www.plug-ins-pro.com/",
@@ -20,9 +20,9 @@
     "url" : "https://github.com/plug-ins-pro/ig_download_file_pro"
   },
  "oracle" : {
-    "versions" : ["11.2.0.1", "12.x", "18.x", "19.x"],
+    "versions" : ["12.x", "18.x", "19.x", "21.x"],
     "apex" : {
-      "versions" : ["19.2.0", "20.1.0"],
+      "versions" : ["19.2.0", "20.1.0", "20.2.0", "21.1.0", "21.2.0", "22.1.0", "22.2.0"],
       "plugin" : {
         "internalName" : "UNITEDCODES_IG_DOWNLOAD_FILE",
         "type" : "dynamic action",
