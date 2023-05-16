@@ -1,34 +1,35 @@
 {
-  "name" : "IG Download File Pro",
-  "version" : "22.1",
-  "description" : "Provide a highly customizable download link in your Interactive Grid. Users can not only download a file, but can also preview certain file types or setup custom menu items for the file.",
-  "keywords" : ["download","file"],
-  "homepage" : "https://www.plug-ins-pro.com/",
-  "bugs" : {
-    "url" : "https://github.com/plug-ins-pro/ig_download_file_pro/issues",
-    "email" : "support@plug-ins-pro.com"
-  },
-  "license" : "Commercial",
-  "commercial" : "Yes",
-  "author" : {
-    "name" : "United Codes",
-    "email" : "info@plug-ins-pro.com",
-    "url" : "https://www.united-codes.com/"
-  },
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/plug-ins-pro/ig_download_file_pro"
-  },
- "oracle" : {
-    "versions" : ["12.x", "18.x", "19.x", "21.x"],
-    "apex" : {
-      "versions" : ["19.2.0", "20.1.0", "20.2.0", "21.1.0", "21.2.0", "22.1.0", "22.2.0"],
-      "plugin" : {
-        "internalName" : "UNITEDCODES_IG_DOWNLOAD_FILE",
-        "type" : "dynamic action",
-        "demo" : "https://www.plug-ins-pro.com/ords/pluginspro_web/r/ig_download_file_pro/home?session=18159084094951",
-        "previewImage" : "https://www.plug-ins-pro.com/ords/pluginspro_web/r/523/files/static/v41/uc_ig_download_file_promo.gif"
+    "name" : "IG File Download Pro",
+    "version" : "22.1",
+    "description" : "Provide a highly customizable download link in your Interactive Grid. Users can not only download a file, but can also preview certain file types or setup custom menu items for the file.",
+    "keywords" : ["download","file"],
+    "homepage" : "https://www.plug-ins-pro.com/",
+    "bugs" : {
+      "url" : "https://github.com/plug-ins-pro/ig_download_file_pro/issues",
+      "email" : "support@plug-ins-pro.com"
+    },
+    "license" : "Commercial",
+    "commercial" : "Yes",
+    "author" : {
+      "name" : "United Codes",
+      "email" : "info@plug-ins-pro.com",
+      "url" : "https://www.united-codes.com/"
+    },
+    "repository" : {
+      "type" : "git",
+      "url" : "https://github.com/plug-ins-pro/ig_download_file_pro"
+    },
+   "oracle" : {
+      "versions" : ["12.x", "18.x", "19.x", "21.x"],
+      "apex" : {
+        "versions" : ["19.2.0", "20.1.0", "20.2.0", "21.1.0", "21.2.0", "22.1.0", "22.2.0"],
+        "plugin" : {
+          "internalName" : "UNITEDCODES_IG_DOWNLOAD_FILE",
+          "type" : "dynamic action",
+          "demo" : "https://www.plug-ins-pro.com/ords/pluginspro_web/r/ig_download_file_pro/home?session=18159084094951",
+          "previewImage" : "https://www.plug-ins-pro.com/ords/pluginspro_web/r/523/files/static/v41/uc_ig_download_file_promo.gif"
+        }
       }
     }
   }
-}
+  
